@@ -4,6 +4,7 @@ def loop_message_five_times(str)
   x = 0 
   while x < 5 do 
     puts str
+    x = x + 1 
   end 
 end
 
@@ -11,6 +12,7 @@ def loop_message_n_times(str, num)
   x = 0 
   while x < num do 
     puts str 
+    x = x + 1 
   end 
 end 
 
