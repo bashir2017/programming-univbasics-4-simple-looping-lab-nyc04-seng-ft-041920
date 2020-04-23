@@ -23,3 +23,7 @@ def output_array(array)
     x = x+1 
   end 
 end 
+
+def return_string_array(array)
+  array.
+end 
