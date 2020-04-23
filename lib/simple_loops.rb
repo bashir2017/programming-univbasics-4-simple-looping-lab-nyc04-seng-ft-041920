@@ -25,5 +25,10 @@ def output_array(array)
 end 
 
 def return_string_array(array)
-  array.
+  i=0 
+  while array[i] do 
+    array[i] = array[i].to_s
+    i += 1 
+  end 
+  array 
 end 
